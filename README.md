@@ -30,7 +30,7 @@ Link:  [States of Matter Website](https://rodence.github.io/stateofmatter/index.
 
 
 ## Step 3: 
-* Now inside of your main folder create a new python file named `function.py'
+* Now inside of your main folder create a new python file named `function.py`
 and type the code below and save it:
 
 
