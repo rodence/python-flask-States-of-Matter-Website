@@ -1,9 +1,9 @@
-# python-flask-ITE-306-SAS-21-State-of-Matter-Website
+# python-flask-ITE-306-SAS-21-States-of-Matter-Website
 State of Matter Flask Website
 
 ## If you want to see this website click the link below
 
-[State of Matter Website](https://rodence.github.io/stateofmatter/index.html)
+[States of Matter Website](https://rodence.github.io/stateofmatter/index.html)
 
 
 <div align='center'>
