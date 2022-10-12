@@ -1,5 +1,5 @@
 # python-flask-ITE-306-SAS-21-States-of-Matter-Website
-State of Matter Flask Website
+States of Matter Flask Website
 
 ## If you want to see this website click the link below
 
