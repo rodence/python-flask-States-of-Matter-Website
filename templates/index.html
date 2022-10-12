@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>State of Matter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./static/css/styles.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <style>
+      li a{
+        text-decoration: none;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="blue-wave-container">
+      <div class="header-wrapper">
+        <div class="header">
+          <div class="logo">STATE OF MATTER</div>
+          <div class="navigation">
+            <ul>
+              <li><a href="{{ url_for('gas') }}">GAS</a></li>
+                <li><a href="{{ url_for('liquid') }}">LIQUID</a></li>
+                <li><a href="{{ url_for('solid') }}">SOLID</a></li>
+                <li><a href="{{ url_for('plasma') }}">PLASMA</a></li>
+            </ul>
+          </div>
+
+          <div class="login">
+            <a>Home</a>
+          </div>
+        </div>
+      </div>
+      <div class="banner-wrapper">
+        <div class="banner">
+          <div class="intro" data-aos="fade-right">
+            <h1>State of Matter</h1>
+            <p>
+              Anything that has mass is made up of matter – 
+              an all-encompassing word for atoms and molecules that make up our physical world.
+               We describe this matter as existing in states (sometimes referred to as phases).
+            </p>
+          </div>
+          <div class="custom-image" data-aos="fade-left" data-aos-delay="300">
+            <img src="./static/svg//atom2.svg" alt="" width="400" />
+          </div>
+        </div>
+      </div>
+      <div class="activities">
+        <div class="activity-title" data-aos="fade-down">
+          <h1>Types of Matter</h1>
+        </div>
+        <div class="activity-list">
+          <div class="activity" data-aos="fade-right">
+            <img src="./static/svg/balloon.svg" alt="" width="300" />
+            <h1>Gas</h1>
+          </div>
+          <div class="activity" data-aos="fade-right" data-aos-delay="500">
+            <img src="./static/svg/liquid2.svg" alt="" width="300" />
+            <h1>Liquid</h1>
+          </div>
+          <div class="activity" data-aos="fade-right" data-aos-delay="800">
+            <img src="./static/svg/rock1.svg" alt="" width="300" />
+            <h1>Solid</h1>
+          </div>
+          <div class="activity" data-aos="fade-right" data-aos-delay="800">
+            <img src="./static/svg/lightning.svg" alt="" width="300" />
+            <h1>Plasma</h1>
+          </div>
+        </div>
+      </div>
+      <div class="contact-us-wrapper">
+        <div class="contact-us">
+          <h1 data-aos="fade-up">STATE OF MATTER</h1>
+          <div data-aos="fade-right">
+            <input type="text" placeholder="Full name" />
+          </div>
+          <div data-aos="fade-right" data-aos-delay="100">
+            <input type="email" placeholder="Email Address" />
+          </div>
+          <div data-aos="fade-right" data-aos-delay="100">
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Message"
+            ></textarea>
+          </div>
+          <button data-aos="fade-up">Ask Questions</button>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="details" data-aos="fade-right">
+          <h2>STATE OF MATTER</h2>
+          <p>Gas</p>
+          <p>Solid</p>
+          <p>Liquid</p>
+          <p>Plasma</p>
+        </div>
+        <div class="details" data-aos="fade-right" data-aos-delay="200">
+          <h2>Visit my Github Account</h2>
+          <p>
+            <a href="https://github.com/rodence">Rodence Atacador</a>
+          </p>
+        </div>
+      </div>
+      <div class="signature">
+        <p>© 2022 Rodence Atacador. All Rights Reserved</p>
+      </div>
+    </div>
+  </body>
+  <style>
+    .footer {
+      height: 15rem;
+      padding: 2rem 10rem;
+      display: flex;
+      background: #0e0f34;
+    }
+
+    .footer .details {
+      width: 30rem;
+    }
+
+    .footer .details h2 {
+      color: #fff;
+    }
+
+    .footer .details p {
+      color: #fff;
+    }
+
+    ::placeholder {
+      color: #8a8989;
+      opacity: 1; /* Firefox */
+    }
+
+    .signature {
+      background: #0e0f34;
+      display: flex;
+      color: #fff;
+      justify-content: center;
+    }
+    a{
+      text-decoration: none;
+      color: #fff;
+    }
+  </style>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>

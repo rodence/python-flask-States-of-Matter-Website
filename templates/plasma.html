@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plasma</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./static/css/styles.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <style>
+        li a{
+          text-decoration: none;
+          color: #fff;
+        }
+      </style>
+  </head>
+    <div class="blue-wave-container">
+      <div class="header-wrapper">
+        <div class="header">
+          <div class="logo">STATE OF MATTER</div>
+          <div class="navigation">
+            <ul>
+              <li><a href="{{ url_for('gas') }}">GAS</a></li>
+                <li><a href="{{ url_for('liquid') }}">LIQUID</a></li>
+                <li><a href="{{ url_for('solid') }}">SOLID</a></li>
+                <li><a href="{{ url_for('plasma') }}">PLASMA</a></li>
+            </ul>
+          </div>
+
+          <div class="login">
+            <a href="{{ url_for('home') }}">Home</a>
+          </div>
+        </div>
+        </div>
+        <div class="banner">
+        <div class="fisherman-wrapper">
+        <div class="fisherman-image" data-aos="zoom-in" data-aos-delay="300">
+          <img src="./static/svg/plasma.svg" width="500" alt="" />
+        </div>
+        <div
+          class="fisherman-info"
+          data-aos="fade-right"
+          width="600"
+          data-aos-delay="600">
+          <h1>PLASMA</h1>
+          <p>
+            Plasma is superheated matter – so hot that the electrons are ripped away from the atoms forming an ionized gas.
+            It comprises over 99% of the visible universe. In the night sky, plasma glows in the form of stars, nebulas, 
+            and even the auroras that sometimes ripple above the north and south poles.
+          </p>
+        </div>
+        </div>
+        </div>
+    </div>
+  </body>
+  <style>
+    .footer {
+      height: 15rem;
+      padding: 2rem 10rem;
+      display: flex;
+      background: #0e0f34;
+    }
+
+    .footer .details {
+      width: 30rem;
+    }
+
+    .footer .details h2 {
+      color: #fff;
+    }
+
+    .footer .details p {
+      color: #fff;
+    }
+
+    ::placeholder {
+      color: #8a8989;
+      opacity: 1; /* Firefox */
+    }
+
+    .signature {
+      background: #0e0f34;
+      display: flex;
+      color: #fff;
+      justify-content: center;
+    }
+  </style>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>
+
+
+
